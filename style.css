@@ -1,0 +1,485 @@
+
+    .boxe{
+        width: 75%;
+        height: 75%;
+        float: right;
+    }
+    .titre{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navMenu{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo 
+    {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding:10px;
+        margin-right: 0px;
+    }
+/*----------Burger menu------------*/
+
+    .conteneur1
+    {
+        display: flex;
+        justify-content: right;
+        width: 80%;
+      
+    }
+
+    .burgerConteneur{
+        display: none;
+    }
+
+    #burgerConteneur{
+        display: none;
+    }
+
+    .liensMenu {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        padding: 40px;
+        padding-bottom: 20px;
+      
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+    
+    }
+
+    /*----------Burger menu------------*/
+
+
+/* Page 5 ---------------------------------------------------------------------------------------*/ 
+
+    body
+    {
+        background-color: #363839;
+        color: seashell;
+    }
+
+    p
+    {
+        font-size: x-large;
+        float: left;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .banniere{
+        display: flex;
+    }
+
+    .cote {
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 100px;
+        padding-top: 7%;
+        margin-top: 2px;
+    }
+
+    button
+    {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .soustitre
+    {
+        justify-items: center;
+        text-align: center;
+    }
+
+    .texte
+    {
+        justify-items: center;
+        text-align: center; 
+    }
+
+
+/* Page 3-------------------------------------------------------------------------------------------*/
+
+    table
+    {
+        border: 3px solid rgba(51,51,51,1);
+        color: rgba( 255,255,255,1);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #747474;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        /*margin-left: 30%;*/    
+    }
+    tr
+    {
+        border: 3px solid rgba(51,51,51,1);
+        color: rgba( 255,255,255,1);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #747474;
+        border-collapse: collapse;
+        text-align: center; 
+    }
+
+    td
+    {
+        border: 3px solid #333333;
+        color: rgba( 255,255,255,1);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #747474;
+        border-collapse: collapse;
+        text-align: center;
+        width: 200px;
+        height: 75px;
+    }
+    th
+    {
+        border: 3px solid #25292b;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #b38245;
+        border-collapse:s collapse;
+        text-align: center;
+        
+    }
+    .plan{
+        background-color: white;
+        color: #363839;
+        padding-top: 1%;
+        text-align: left;
+        justify-content: space-around;
+        padding-bottom: 1%;
+        padding-left: 10%;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .plan1
+    {
+        padding-bottom: 10px;
+        color: #b38245;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+    }
+
+    .total{
+        display: flex;
+        height: 600px;
+        width: 100%;
+        }
+
+    .choix {
+
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        padding-left: 50px;
+    }   
+
+    .titretable{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .titretab{
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .box
+    {
+        padding-top: 5%;
+        padding-top: 5%;
+        font-size: large;
+    }
+
+
+/* Page 2-------------------------------------------------------------------------------------------*/
+    .fond
+    {
+        background-image: url("resources/images/fond.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center, center;
+        border-style: solid;
+        background-blend-mode: overlay;
+        border-width: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .bg-img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .card-container{
+        background: 0px black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 525px;
+        width: 600px;
+        margin: 40px;
+        
+    }
+
+    .card-title{
+        color: aliceblue;
+        margin: 1px;
+        font-size: x-large;
+        text-align: center;
+
+    }
+
+    .card-description{
+        color: aliceblue;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+
+    }
+
+
+/* footer------------------------------------------*/
+#footer
+{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: large;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+
+.soustitrefoot
+{
+    font-size: 13px;
+    color: white;
+    font-family: serif;
+    margin-left: 25px;
+    justify-content: center;
+    font-size: large;
+    margin-bottom: 40px;
+
+    
+
+}
+
+.titrefoot
+{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: block;
+   
+
+}
+.transport
+{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+}
+
+.textefoot
+{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    
+    
+
+}
+
+.logofoot
+{
+    width: 150px;
+    height: 75px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+
+}
+
+.acces
+{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.lienfoot
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* page4---------------------------------------------------------------------------*/
+
+    .table-offre
+    {
+        border: 3px solid rgba(51,51,51,1);
+        color: rgba( 255,255,255,1);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #747474;
+        border-collapse: collapse;
+        width: 50%;
+        text-align: center;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .lienoffre
+    {
+        color: white;
+        text-decoration: none;
+        border: 5px, solid,#b38245;
+    }
+
+/* responsive------------------------------------------------------------*/
+
+@media screen and (min-width:425px) and (max-width:768px)
+{
+
+
+/*----------Burger menu------------*/
+
+
+.conteneur1{
+    display: none;
+}
+
+
+.burgerConteneur{
+    width: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color:#a01c1c;
+    margin: 0 auto;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+
+#burgerConteneur:checked + .conteneur1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: rgb(77, 77, 77);
+    margin-right: 26px;
+    height: auto;
+}
+
+
+ /*----------Burger menu------------*/
+
+    .header{
+        width: 75%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    footer
+    {
+        display:flex;
+        flex-wrap: wrap;
+        font-size: large;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;   
+    }
+
+    
+    .section1
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        flex-wrap: wrap;
+    }
+    .section2
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+    .section3
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+    .section4
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+    /* pour la section5-------------------------------*/
+    
+    .banniere
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+} 
